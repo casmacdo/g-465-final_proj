@@ -1,4 +1,5 @@
 // The following exports multiple sets of pollution data from Google Earth Engine using a user-defined bouding box
+// Thanks to Dr. Kross of Concordia University for the help!
 
 // Create an oversized bounding box for our study region from which the pollutiond data will be clipped
 
