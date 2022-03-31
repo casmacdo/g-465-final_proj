@@ -1,1 +1,1 @@
-# g-465-final_proj
+# Landcover and Pollution Change Detection for Montreal and Surounding Area
