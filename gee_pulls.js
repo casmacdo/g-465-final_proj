@@ -36,8 +36,8 @@ poll.forEach(function (poll) { // for loop that iterates over the pollution list
 
   Export.image.toDrive({ 
     image: meanImage.clip(region),//specify image to be exported and clip to Montreal boundaries
-    region: region, // clip the image according to selected polygon
-    scale: scale, // from the scale_of_data, obtained in line33
+    region: region, // clip the image according to polygon created earlier
+    scale: scale, // from the scale_of_data
     folder : 'GEE' // the output folder
   });
 });
