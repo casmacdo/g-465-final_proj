@@ -27,7 +27,6 @@ poll.forEach(function (poll) { // for loop that iterates over the pollution list
   .filterDate('2020-09-01', '2020-12-31') // select study period
   .filterBounds(region); // set geometry
 
-
   var meanImage = collection.mean(); // calculate the mean of the images
   
   var scale = collection.first().select(poll[1]).projection().nominalScale(); // get the scale of each image
